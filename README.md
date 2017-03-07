@@ -13,7 +13,6 @@ Calendar, an iOS app aims to replicate the Calendar functionality at Microsoft O
 - The agenda view displays days which has empty events! I find this a waste. I'd rather hide empty days to provide the user with more information
 - It is very annoying switching between 1 month & 2 weeks view. having views scrolling with different speed is a little bit strange
 - Jumping back to today through the shown up arrow (in the lower right corner) is not that straightforward. even having it rotated while scrolling to indicate moving away from today is not obvious! I would rather replace it with an icon with the current date on it
-- Tapping the status bar (on the system clock) for example doesn't scroll to today or the selected day
 - Day & 3-Days view style are not that practical, you keep scrolling left and right. I'd love to check the logs in order to know if they are being used on the iPhone or not
 
 ## Bugs
@@ -22,6 +21,7 @@ Calendar, an iOS app aims to replicate the Calendar functionality at Microsoft O
 
 ## Suggestions
 - Instead of having only one dot under the day in the calendar view indicating that the day is busy, we might display number of dots representing the number of events in this day
+- Tapping the status bar (on the system clock) for example scroll to today or the selected day
 
 
 # Current Attempt
